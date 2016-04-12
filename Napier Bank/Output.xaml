@@ -1,0 +1,22 @@
+﻿<Window x:Class="Napier_Bank.Output"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Napier_Bank"
+        mc:Ignorable="d"
+        Title="Output" Height="500" Width="600">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtBody" HorizontalAlignment="Left" Height="177" Margin="28,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True"/>
+        <Label x:Name="lblSender" Content="Sender:" HorizontalAlignment="Left" Margin="28,25,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSender" HorizontalAlignment="Left" Height="23" Margin="28,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="277,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="lblID" Content="Message ID" HorizontalAlignment="Left" Margin="277,25,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBody" Content="Body:" HorizontalAlignment="Left" Margin="28,97,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstMentions" HorizontalAlignment="Left" Height="177" Margin="367,123,0,0" VerticalAlignment="Top" Width="85"/>
+        <ListBox x:Name="lstTrending" HorizontalAlignment="Left" Height="177" Margin="277,123,0,0" VerticalAlignment="Top" Width="85"/>
+        <ListBox x:Name="lstSIR" HorizontalAlignment="Left" Height="177" Margin="457,123,0,0" VerticalAlignment="Top" Width="85" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

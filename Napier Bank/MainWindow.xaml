@@ -1,0 +1,11 @@
+﻿<Window x:Class="Napier_Bank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="190.858" Width="425">
+    <Grid Margin="0,0,0,2">
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="38,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblID" Content="Enter message ID (eg. E1234567701)" HorizontalAlignment="Left" Margin="38,52,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnID" Content="Submit ID" HorizontalAlignment="Left" Margin="241,83,0,0" VerticalAlignment="Top" Width="75" Click="btnID_Click"/>
+
+    </Grid>
+</Window>
